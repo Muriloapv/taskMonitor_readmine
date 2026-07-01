@@ -41,7 +41,7 @@ def open_tasks():
         win.protocol("WM_DELETE_WINDOW", close_tasks)
         win.bind("<Escape>", lambda e: close_tasks())
 
-        win_w, win_h = 740, 600
+        win_w, win_h = 740, 740
         sw = win.winfo_screenwidth()
         sh = win.winfo_screenheight()
         win.geometry(f"{win_w}x{win_h}+{(sw - win_w) // 2}+{(sh - win_h) // 2}")

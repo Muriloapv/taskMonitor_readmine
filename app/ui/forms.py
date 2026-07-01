@@ -38,7 +38,7 @@ def open_verify():
         win.resizable(True, True)
         win.protocol("WM_DELETE_WINDOW", close_verify)
 
-        win_w, win_h = 980, 620
+        win_w, win_h = 740, 740
         sw = win.winfo_screenwidth()
         sh = win.winfo_screenheight()
         win.geometry(f"{win_w}x{win_h}+{(sw - win_w) // 2}+{(sh - win_h) // 2}")
